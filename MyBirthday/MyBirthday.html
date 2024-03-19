@@ -1,0 +1,96 @@
+<html lang="vi"
+    __fvdsurfcanyoninserted="1"
+    class="
+        clickberry-extension
+        clickberry-extension-standalone
+        clickberry-extension
+        clickberry-extension-standalone
+        clickberry-extension
+        clickberry-extension-standalone
+    "
+>
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="shortcut icon" type="image/png" href="./birthdayCake.png"/>
+        <title>Happy Birthday</title>
+        <link rel="stylesheet" href="./style.css">
+        <meta property="og:image" content = "./pa.jpg" />
+        <meta name="description" content="Happy Birthday HPA 🥳" />
+        <script>
+            window.open = function () {};
+            window.print = function () {};
+            // Support hover state for mobile.
+            if (false) {
+                window.ontouchstart = function () {};
+            }
+        </script>
+        <script
+            type="text/javascript"
+            src="chrome-extension://bfbmjmiodbnnpllbbbfblcplfjjepjdn/js/injected.js"
+        ></script>
+        <meta content="clickberry-extension-here" />
+    </head>
+
+    <body>
+        <link
+            href="https://fonts.googleapis.com/css?family=Wendy+One"
+            rel="stylesheet"
+            type="text/css"
+        />
+        <div class="pyro">
+            <div class="before">
+                
+            </div>
+            <div class="after">
+
+            </div>
+            <div class="container">
+                <div class="balloon">
+                    <div><span>H</span></div>
+                    <div><span>A</span></div>
+                    <div><span>P</span></div>
+                    <div><span>P</span></div>
+                    <div><span>Y</span></div>
+                    <div><span>B</span></div>
+                    <div><span>I</span></div>
+                    <div><span>R</span></div>
+                    <div><span>T</span></div>
+                    <div><span>H</span></div>
+                    <div><span>D</span></div>
+                    <div><span>A</span></div>
+                    <div><span>Y</span></div>
+                </div>
+                <div class="avatar">
+                    <img src="/thechan.jpg" alt="" class="avatar__img" onclick="showMessage()" />
+                    <h2 onclick="showMessage()" class="avatar__title">Tăng âm lượng trước khi ấn vào ảnh bên trên nhaaa 🥳 </h1> <!--wtf làm sao để cho nó ở center lui bên dưới đây tính từng cái 1 mệt vc-->
+                    <h1 onclick="showMessage()" class="avatar__title">🎂 Thân Nhân Thế 🎂</h1>
+                   
+                    <audio autoplay loop>
+                        <source src="./hpbd.mp3" type="audio/mp3">
+                    </audio>
+                </div>
+                
+            </div>
+        </div>
+        <script>
+            if (document.location.search.match(/type=embed/gi)) {
+                window.parent.postMessage("resize", "*");
+            }
+            function showMessage() {
+                swal({
+                    title: "✉️ 16/03/2004 ✉️", 
+                    text: "gửi thiệp ae Đà Lạt thứ 4 ngày 20/03/2024 dự sinh nhật tôi tại hẻm 12 phường thạnh lộc quận 12 sự hiện diện của anh em là niệm vinh hạnh của tôi ... form Thế oni-chan with love <3", 
+                    button: {
+                        text: "💖",
+                    },
+                });
+            }
+            const audio = document.querySelector("audio")
+            const avatarImg = document.querySelector(".avatar__img")
+            avatarImg.addEventListener("click",()=>{
+                audio.play()
+            })
+        </script>
+        <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    </body>
+</html>
